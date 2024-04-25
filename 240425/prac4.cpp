@@ -6,8 +6,8 @@ using namespace std;
 int main() {
 
 	int st_num;
-	int sc;
-	int sum_sc = 0;
+	float sc;
+	float sum_sc = 0;
 
 	// 학생 수 입력받기
 	cout << "평균을 낼 학생 수를 입력하시오 : ";
