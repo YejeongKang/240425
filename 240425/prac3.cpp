@@ -5,11 +5,15 @@
 
 using namespace std;
 
-// 배열을 뒤집어서 출력
-void reverse_print(string *arr) {
+// 배열을 뒤집기
+void reverse(string *arr) {
 	
-	for (int i = 0; i < Size; i++) {
-		cout << *(arr + Size - i - 1) << " ";
+	for (int i = 0; i < Size / 2; i++) {
+		
+		string temp = *(arr + i);
+		*(arr + i)= *(arr + Size - i - 1);
+		* (arr + Size - i - 1) = temp;
+
 	}
 }
 
@@ -31,6 +35,22 @@ int main() {
 
 	cout << endl << " korean after function call : ";
 	
-	reverse_print(korean);
+	reverse(korean);
+
+	for (int i = 0; i < Size; i++) {
+
+		cout << *(korean + i) << " ";
+	}
 	
 }
+/*
+void reverse(string *array) {
+
+	for (int i = 0; i < Size / 2; i++) 
+	{
+		string temp = array[i];
+		array[i] = array[5 - i - 1];
+		array[5 - i - 1] = temp;
+	}
+}
+*/
