@@ -9,7 +9,7 @@ using namespace std;
 void reverse_print(string *arr) {
 	
 	for (int i = 0; i < Size; i++) {
-		cout << arr[Size - i - 1] << " ";
+		cout << *(arr + Size - i - 1) << " ";
 	}
 }
 
@@ -17,7 +17,7 @@ void reverse_print(string *arr) {
 void origin_print(string *arr) {
 
 	for (int i = 0; i < Size; i++) {
-		cout << arr[i] << " ";
+		cout << *(arr + i) << " ";
 	}
 }
 
