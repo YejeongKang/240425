@@ -12,6 +12,7 @@ void reverse_print(string *arr) {
 		cout << arr[Size - i - 1] << " ";
 	}
 }
+
 // 배열 그 잡채를 출력
 void origin_print(string *arr) {
 
@@ -19,6 +20,7 @@ void origin_print(string *arr) {
 		cout << arr[i] << " ";
 	}
 }
+
 int main() {
 	
 	string korean[Size] = { "가", "나", "다", "라", "마" };
