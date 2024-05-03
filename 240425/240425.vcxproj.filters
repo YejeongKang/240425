@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="240425.cpp">
+    <ClCompile Include="240425_pointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="prac2.cpp">
+    <ClCompile Include="prac2_find_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="prac3.cpp">
+    <ClCompile Include="prac3_reversed_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="prac4.cpp">
+    <ClCompile Include="prac4_studen_avg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
